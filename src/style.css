@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 500px;
+  background-color: #DDDDDD;
+  border: solid white 1px;
+}
+.link-buttons {
+  background-color: #1A1A1B;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+  
+}
+
+li:hover {
+  background-color: #00FFF5;
+  text-align: center;
+
+}
+footer {
+  height: 500px;
+  background-color: #393E46;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  width: 200px;
+}
+h1 {
+  font-size: 110px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.aboutme-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutme-text {
+  margin-left: 100px;
+  margin-bottom: 300px;
+  font-size: 300px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  background-color: #00FFF5;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button:active {
+  background-color: grey;
+  color: #212121;
+}
+
+.socials {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#git:hover {
+  background-color: white;
+  color: black;
+}
+
+#git:active {
+  background-color: grey;
+  color: #212121;
+}
+
+#lin:hover {
+  background-color: white;
+  color: black;
+}
+
+#lin:active {
+  background-color: grey;
+  color: #212121;
+}
+
+.social {
+  margin: 30px;
+
+}
+
+.sub-section {
+  display: flex;
+  justify-content:left;
+  padding: 60px;
+  
+}
+
+.sub-section2 {
+
+  padding: 60px;
+  
+}
+
+
+h2 {
+  font-size: 60px;
+  
+}
+
+p {
+  font-size: 25px;
+}
+
+.pic {
+  width: 200px;
+  border-radius: 100px;
+  
+
+}
+
+footer h2 {
+padding: 60px;
+text-align: center;
+font-size: 80px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
